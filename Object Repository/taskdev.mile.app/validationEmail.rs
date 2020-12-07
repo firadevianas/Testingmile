@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>FieldCompanyEmail</name>
+   <name>validationEmail</name>
    <tag></tag>
-   <elementGuidId>a43523e4-cc43-4165-8b68-1c482c621086</elementGuidId>
+   <elementGuidId>1c2bd839-dfb2-49e3-afdf-e8bbf74c146d</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//input[@placeholder='Company email']</value>
+         <value>//form[@class=&quot;el-form inputLogin&quot;]//div[2]//div//span[@class=&quot;validate-failed&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

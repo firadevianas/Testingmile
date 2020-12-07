@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>FieldCompName</name>
+   <name>requestDemo</name>
    <tag></tag>
-   <elementGuidId>cf82fc4a-30e8-4ba9-a23b-4ddf541c86eb</elementGuidId>
+   <elementGuidId>260e0479-be54-47fc-a29f-cb90327e857b</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//input[@placeholder='Company Name']</value>
+         <value>//p[@class='sign-in-caption']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

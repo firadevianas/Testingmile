@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>BtnSubmitReqDemo</name>
+   <name>FieldPhoneNum</name>
    <tag></tag>
-   <elementGuidId>0b4b8fa0-9252-4e5f-9577-414d7ad0585f</elementGuidId>
+   <elementGuidId>402c0ef5-33f5-4cf8-81b5-01cda038ce28</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//button[@class='btn btn-warning']</value>
+         <value>//input[@placeholder='Phone number']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC5- Enter special character on organization name field</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>45d94ae2-b232-4466-b62a-83dee7300608</testCaseGuid>
+</TestCaseEntity>

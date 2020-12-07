@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>FieldPhoneNum</name>
+   <name>fieldPhone</name>
    <tag></tag>
-   <elementGuidId>402c0ef5-33f5-4cf8-81b5-01cda038ce28</elementGuidId>
+   <elementGuidId>29fd852c-9dff-4caf-b299-4a95a4029313</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//input[@placeholder='Phone number']</value>
+         <value>//input[@name=&quot;phone&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

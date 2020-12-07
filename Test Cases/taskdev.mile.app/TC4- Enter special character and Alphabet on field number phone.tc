@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC4- Enter special character and Alphabet on field number phone</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c9a2689f-e99d-4e63-b47c-fe1aaaa65e3a</testCaseGuid>
+</TestCaseEntity>

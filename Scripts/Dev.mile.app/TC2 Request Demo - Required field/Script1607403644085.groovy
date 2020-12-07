@@ -20,46 +20,23 @@ WebUI.openBrowser('https://dev.mile.app/')
 
 WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('BtnReqDemo'))
+WebUI.click(findTestObject('Dev.mile.app/BtnReqDemo'))
 
-WebUI.waitForElementVisible(findTestObject('BtnSubmitReqDemo'), 5)
+WebUI.click(findTestObject('Dev.mile.app/BtnSubmitReqDemo'))
 
-WebUI.setText(findTestObject('FieldName'), 'a')
+WebUI.verifyElementAttributeValue(findTestObject('Dev.mile.app/FieldName'), 'aria-required', 'true', 0)
 
-WebUI.setText(findTestObject('FieldCompanyEmail'), 'aaa')
+WebUI.verifyElementAttributeValue(findTestObject('Dev.mile.app/FieldCompanyEmail'), 'aria-required', 'true', 0)
 
-WebUI.setText(findTestObject('FieldPhoneNum'), 'aaa')
+WebUI.verifyElementAttributeValue(findTestObject('Dev.mile.app/FieldPhoneNum'), 'aria-required', 'true', 0)
 
-WebUI.setText(findTestObject('FieldCompName'), 'aaa')
+WebUI.verifyElementAttributeValue(findTestObject('Dev.mile.app/FieldCompName'), 'aria-required', 'true', 0)
 
-Random rand = new Random()
+WebUI.verifyElementAttributeValue(findTestObject('Dev.mile.app/FieldTypeIndustry'), 'aria-required', 'true', 0)
 
-OptionsIndustry = WebUI.getNumberOfTotalOption(findTestObject('FieldTypeIndustry'))
+WebUI.verifyElementAttributeValue(findTestObject('Dev.mile.app/FieldJobPosition'), 'aria-required', 'true', 0)
 
-int industry = rand.nextInt(OptionsIndustry)
+WebUI.verifyElementAttributeValue(findTestObject('Dev.mile.app/FieldProductType'), 'aria-required', 'true', 0)
 
-WebUI.selectOptionByIndex(findTestObject('FieldTypeIndustry'), industry)
-
-//WebUI.verifyEqual(Options, 10)
-OptionsJobPosition = WebUI.getNumberOfTotalOption(findTestObject('FieldJobPosition'))
-
-int job = rand.nextInt(OptionsJobPosition)
-
-WebUI.selectOptionByIndex(findTestObject('FieldJobPosition'), job)
-
-OptionsProduct = WebUI.getNumberOfTotalOption(findTestObject('FieldProductType'))
-
-int product = rand.nextInt(OptionsProduct)
-
-WebUI.selectOptionByIndex(findTestObject('FieldProductType'), product)
-
-OptionsUser = WebUI.getNumberOfTotalOption(findTestObject('FieldNumOfUser'))
-
-int user = rand.nextInt(OptionsUser)
-
-WebUI.selectOptionByIndex(findTestObject('FieldNumOfUser'), user)
-
-WebUI.click(findTestObject('BtnSubmitReqDemo'))
-
-WebUI.verifyElementVisible(findTestObject(null))
+WebUI.verifyElementAttributeValue(findTestObject('Dev.mile.app/FieldNumOfUser'), 'aria-required', 'true', 0)
 

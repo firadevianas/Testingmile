@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC3- Enter incorrect email format</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f7677c67-7d92-418f-b610-57f0adf12aaf</testCaseGuid>
+</TestCaseEntity>

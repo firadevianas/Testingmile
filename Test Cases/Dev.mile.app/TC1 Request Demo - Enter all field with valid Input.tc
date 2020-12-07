@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description>fill form request demo, positive case</description>
-   <name>TC1 Request Demo - Positive case</name>
+   <name>TC1 Request Demo - Enter all field with valid Input</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>2f1b4012-2b9b-4454-aac2-35972142b2ed</testCaseGuid>
