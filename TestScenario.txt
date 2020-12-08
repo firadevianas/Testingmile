@@ -1,0 +1,50 @@
+1. Sebutkan 3 Keselahan besar yang paling sering dilakukan oleh QA lalu berikan solusi agar tidak terjadi atau terulang kembali ?
+
+1.Focus on small detail and forgot the whole bigger picture
+solution -> priorities and focus on major feature and functionality first, 
+after the whole feature and bigger feature are working correctly surely could continue to check for small detail
+and dont forget to check the major feature are working correctly
+
+2.Create test cases that are understandable by the authors only
+Solution -> create better test case, by put enough information: precondition, documentation if there any, screenshoot
+
+3.Not being active on Plannings, groomings, estimates,or any meetings
+it'll end up having the feature/improvement or task not how PM/PO imagined it’ll work 
+solution -> more active those planning, groomings or any meeting, ask how should Qa test it 
+
+
+2. Jelaskan point - point terpenting yang harus diperhatikan Dalam menganalisa dan membuat Skenario Test ?
+
+1. Read the requirement document, PRD, user flow, existing test case if exist
+2. figure out and analysis user action and objective for each requirement, make sure for possible scenarios, thinking out of the box
+3. list out and differentiate for each test scenario 
+4. Make sure Each Test Scenario should be cover minimum of one Requirement 
+
+Test scenario of Request Demo
+-check functionality of Request Demo form
+
+
+dev.mile.app
+1. TC1 : Filled all field on Form request demo 
+2. TC2 : enter empty field on form request demo
+3. TC3 : enter incorrect email format
+4. TC4 : enter aphabet and special char on field phone number
+5. TC5 : enter invalid format for name [enter angka and special char]
+6. TC6 : enter invalid format for organization name
+7. TC7 : request demo using existing email or phone number
+
+
+
+https://taskdev.mile.app/request-demo
+1. TC1 : Filled all field on Form request demo 
+2. TC2 : enter empty field on form request demo
+3. TC3 : enter incorrect email format
+4. TC4 : enter aphabet and special char on field phone number
+6. TC5 : enter invalid format for organization name
+7. TC6 : request demo using existing email or phone number
+
+
+API
+- 400 bad request null
+- use existing email/use existing phone number
+- 200 success
