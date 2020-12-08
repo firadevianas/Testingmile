@@ -45,6 +45,6 @@ https://taskdev.mile.app/request-demo
 
 
 API
-- 400 bad request null
-- use existing email/use existing phone number
 - 200 success
+- 400 bad request null
+- 400 bad requestuse existing email/use existing phone number
